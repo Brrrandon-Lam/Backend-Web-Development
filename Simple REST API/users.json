@@ -1,0 +1,51 @@
+[
+  {
+    "username": "Tommy",
+    "businesses": [
+      {
+        "businessName": "Tommy's Diner",
+        "businessLink": "/businesses/0"
+      },
+      {
+        "businessName": "Tommy's Cafeteria",
+        "businessLink": "/businesses/1"
+      },
+      {
+        "businessName": "Tommy's Fast Food",
+        "businessLink": "/businesses/2"
+      },
+      {
+        "businessName": "Tommy's Pub",
+        "businessLink": "/businesses/3"
+      }
+    ],
+    "reviews": [],
+    "photos": [
+      {
+        "photographer": "Tommy",
+        "image": "url1",
+        "caption": "text here"
+      }
+    ]
+  },
+  {
+    "username": "John",
+    "businesses": [],
+    "reviews": [
+      {
+        "businessName": "Tommy's Diner",
+        "author": "John",
+        "stars": 1,
+        "cost": "$$",
+        "writtenReview": "Dear god."
+      }
+    ],
+    "photos": [
+      {
+        "photographer": "John",
+        "image": "url here",
+        "caption": "text here"
+      }
+    ]
+  }
+]

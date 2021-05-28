@@ -1,0 +1,24 @@
+1) docker run -d --name mysql-server -p 3306:3306 -v yelp-vol:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=hunter2 -e MYSQL_DATABASE=yelpdb -e MYSQL_USER=testuser -e MYSQL_PASSWORD=hunter2 --network yelp-net mysql
+2) docker run -it -v yelp-vol --network yelp-net mysql mysql -h mysql-server -u testuser -p yelpdb
+3) password: hunter2 (ROOT and USER)
+   user = testuser
+   db = yelpdb
+   host = localhost
+   port = 3306
+
+3a) use yelpdb;
+3b) initialize using ./init/init.sql then exit mysql
+---SET ENVIRONMENT VARIABLES----
+set MYSQL_DB=yelpdb
+set MYSQL_HOST=localhost
+set MYSQL_USER=testuser
+set MYSQL_PASSWORD=hunter2
+set MYSQL_PORT=3306
+
+4) To show docker volume working properly: remove the mysql-server using docker desktop and recreate it using steps 1 and 2
+5) inside mysql, run the commands found in ./init/init.sql
+6) Run POSTMAN to test the server
+
+To start the server:
+	-node server.js
+OR	-npm start

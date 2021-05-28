@@ -1,0 +1,132 @@
+[
+  {
+    "businessID": 0,
+    "owner": "Tommy",
+    "name": "Tommy's Diner",
+    "address": "mandatory",
+    "city": "mandatoryy",
+    "state": "mandatory",
+    "zipcode": "mandatory",
+    "phone": "mandatory",
+    "category": "mandatory",
+    "subcategory": "mandatory",
+    "website": "optional",
+    "email": "optional",
+    "photos": [
+      {
+        "photographer": "John",
+        "image": "url here",
+        "caption": "text here"
+      },
+      {
+        "photographer": "Tommy",
+        "image": "url1",
+        "caption": "text here"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "John",
+        "stars": 1,
+        "cost": "$$",
+        "writtenReview": "Dear god."
+      }
+    ]
+  },
+  {
+    "businessID": 1,
+    "owner": "Tommy",
+    "name": "Tommy's Cafeteria",
+    "address": "mandatory",
+    "city": "mandatoryy",
+    "state": "mandatory",
+    "zipcode": "mandatory",
+    "phone": "mandatory",
+    "category": "mandatory",
+    "subcategory": "mandatory",
+    "website": "optional",
+    "email": "optional",
+    "photos": [],
+    "reviews": []
+  },
+  {
+    "businessID": 2,
+    "owner": "Tommy",
+    "name": "Tommy's Fast Food",
+    "address": "mandatory",
+    "city": "mandatoryy",
+    "state": "mandatory",
+    "zipcode": "mandatory",
+    "phone": "mandatory",
+    "category": "mandatory",
+    "subcategory": "mandatory",
+    "website": "optional",
+    "email": "optional",
+    "photos": [],
+    "reviews": []
+  },
+  {
+    "businessID": 3,
+    "owner": "Tommy",
+    "name": "Tommy's Pub",
+    "address": "mandatory",
+    "city": "mandatoryy",
+    "state": "mandatory",
+    "zipcode": "mandatory",
+    "phone": "mandatory",
+    "category": "mandatory",
+    "subcategory": "mandatory",
+    "website": "optional",
+    "email": "optional",
+    "photos": [],
+    "reviews": []
+  },
+  {
+    "businessID": 4,
+    "owner": "mandatory",
+    "name": "mandatory",
+    "address": "mandatory",
+    "city": "mandatoryy",
+    "state": "mandatory",
+    "zipcode": "mandatory",
+    "phone": "mandatory",
+    "category": "mandatory",
+    "subcategory": "mandatory",
+    "website": "optional",
+    "email": "optional",
+    "photos": [],
+    "reviews": []
+  },
+  {
+    "businessID": 5,
+    "owner": "mandatory",
+    "name": "mandatory",
+    "address": "mandatory",
+    "city": "mandatoryy",
+    "state": "mandatory",
+    "zipcode": "mandatory",
+    "phone": "mandatory",
+    "category": "mandatory",
+    "subcategory": "mandatory",
+    "website": "optional",
+    "email": "optional",
+    "photos": [],
+    "reviews": []
+  },
+  {
+    "businessID": 6,
+    "owner": "mandatory",
+    "name": "mandatory",
+    "address": "mandatory",
+    "city": "mandatoryy",
+    "state": "mandatory",
+    "zipcode": "mandatory",
+    "phone": "mandatory",
+    "category": "mandatory",
+    "subcategory": "mandatory",
+    "website": "optional",
+    "email": "optional",
+    "photos": [],
+    "reviews": []
+  }
+]

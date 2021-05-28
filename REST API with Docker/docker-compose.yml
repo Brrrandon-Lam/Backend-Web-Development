@@ -1,0 +1,28 @@
+version: "3.9"
+services:
+     yelp-api:
+          build: .
+          image: yelp-api-img
+          restart: always
+          ports:
+               - "8000:8000"
+          environment:
+               MYSQL_DATABASE: yelpdb
+               MYSQL_HOST: localhost
+               MYSQL_PORT: 3306
+               MYSQL_USER: testuser
+               MYSQL_PASSWORD: hunter2
+     mysql-server:
+          image: mysql
+          restart: always
+          volumes:
+               - yelp-vol:/var/lib/mysql
+               - ./init/:/docker-entrypoint-initdb.d/init/
+          environment:
+               MYSQL_ROOT_PASSWORD: rootpassword
+               MYSQL_DATABASE: yelpdb
+               MYSQL_USER: testuser
+               MYSQL_PASSWORD: hunter2
+volumes:
+     yelp-vol:
+          name: yelp-vol
